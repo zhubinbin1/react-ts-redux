@@ -72,8 +72,8 @@ module.exports={
             { test:/\.less$/,
                 use:[
                 "style-loader",
-            "css-loader",//@import 解析路径
-            "less-loader"]
+                "css-loader",//@import 解析路径
+                "less-loader"]
             },//less-css
             {
                 test:/\.(png|jpg|gif)$/,

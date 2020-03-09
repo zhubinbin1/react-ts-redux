@@ -1,0 +1,20 @@
+footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 0.6rem;
+    box-sizing:border-box;
+    color: darkslategray;
+    border-top: solid 0.01rem #dddddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        display: flex;
+        flex-direction: column;
+        &.active{//串联选择器
+            color: deeppink;
+        }
+    }
+}
